@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="325.0" prefWidth="466.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.tarea1edad.PrimaryController">
+    
+   <children>
+      <Label fx:id="txtTexto" layoutX="42.0" layoutY="96.0" text="INGRESA FECHA DE NACIMIENTO" />
+      <TextField fx:id="txtFecha" layoutX="250.0" layoutY="92.0" promptText="DD/MM/AAAA" text="DD/MM/AAAA" />
+      
+      <Button fx:id="btnLimpiar" layoutX="279.0" layoutY="150.0" mnemonicParsing="false" onAction="#limpiarCampos" text="LIMPIAR" />
+      <Button fx:id="btnCalcular" layoutX="101.0" layoutY="150.0" mnemonicParsing="false" onAction="#calcularEdad" text="CALCULAR" />
+      <Label fx:id="txtRes" layoutX="198.0" layoutY="232.0" text="TU EDAD ES :" />
+   </children>
+   
+</Pane>
